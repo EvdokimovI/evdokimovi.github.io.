@@ -1,0 +1,232 @@
+.body {
+    position: relative;
+    border: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width:2210px;
+}
+.header {
+    margin: 0 auto;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height:84px;
+    background-color: #007765;
+    left: 0px;
+    top:0px;
+}
+.container {
+    position: relative;
+    width: 1220px;
+    height: 84px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-right: 55px;
+    }
+.content {
+    width:auto;
+    height: 42px;
+    float: left;
+    margin-top: 21px;
+}
+.logo {
+    height: 42px;
+}
+.content:last-child {
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    line-height: 1.7;
+    color:white;
+    margin-left: 750px;
+}
+.pipernet {
+    margin: 0 auto;
+    width:100%;
+    display: flex;
+    margin-top: 84px;
+    height: 410px;
+    background-image: url(image.png);
+    background-position: center;
+    background-size: cover;
+}
+.containnet {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 72px;
+    line-height: normal;
+    left:0px;
+}
+.theproblem {
+    height: 719px;
+    background: #EEEEEE;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+.hatprb > p {
+    font-size: 72px;
+    margin-top: 42px;
+    color:#007765;
+}
+.contentprb  {   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 32px;
+    width: 1220px;
+    color:black;
+    padding-bottom: 92px;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+.web {
+    height: 483px;
+    background-image:url(web.png);
+    background-position: center;
+    background-size: cover;
+    left:0px;
+}
+.containerweb {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    height: 483px;
+    width: 843px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.textweb {
+    font-family: 'Roboto', sans-serif;
+    font-size:48px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center; 
+}
+.coin {
+    height: 604px;
+    background-color: white;
+    left:0px;
+}
+.coincontainer {
+    width:1110px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 604px;
+}
+.introducing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 75px;
+    margin-top: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 64px;
+    color: #007765;
+}
+.cointext {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 32px;
+    padding-top: 19px;
+    
+}
+.logoppc {
+    float:left;
+    padding-right: 66px;
+}
+.cointext:last-child {
+    padding-top: 40px;
+}
+.teamcontainer {
+    width:1110px;
+    margin-left:auto;
+    margin-right:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.row:after {
+    clear:both;
+    content: "";
+    display: table;
+}
+.col-3 {
+    padding-top:32px;
+    width:350px;
+    margin-right: 20px;
+    float: left;
+    padding-bottom: 28px;
+}
+.col-3:last-child {
+    margin-right: 0px;
+}
+.team {
+    background: #EEEEEE;
+    height: 845px;
+}
+.titleteam {
+    font-size: 64px;
+    color:#007765;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 58px;
+    padding-bottom: 32px;
+}
+.row p {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #007765;
+    font-weight: bold;
+}
+.row a {
+    font-style: italic;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+.footer {
+    width: 100%;
+    height: 176px;
+    background: #333333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.contain {
+    padding-right: 55px;
+    padding-left: 55px;
+    height: 64px;
+    font-size: 18px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 540px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color:yellow;
+}
